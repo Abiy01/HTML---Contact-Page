@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+    <p>Feel free to send me a message using the form below:</p>
+
+    <form>
+
+        <!-- Name -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Subject -->
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" placeholder="Subject of your message"><br><br>
+
+        <!-- Message -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" rows="5" cols="40" placeholder="Type your message here..." required></textarea><br><br>
+
+        <!-- Reason for contacting -->
+        <label for="reason">Reason for Contact:</label><br>
+        <select id="reason">
+            <option value="question">I have a question</option>
+            <option value="feedback">I want to give feedback</option>
+            <option value="collaboration">Collaboration request</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Send Message">
+
+    </form>
+
+</body>
+</html>
